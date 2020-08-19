@@ -18,6 +18,6 @@
 ## 파일 및 폴더 구조
  - `플랫폼/카테고리(생략가능)/주제.문제.숫자/깃허브아디` 형식으로 업로드해주세요.
   - 예시 01: [/programmers/난이도별/level01.약수의_합/areum.js](./programmers/난이도별/level01.약수의_합/areum.js)
-  - 예시 02: [/programmers/난이도별/level01.문자열을 정수로 바꾸기/yoojinhee03.java](./programmers/난이도별/level01.문자열을 정수로 바꾸기/yoojinhee03.java)
+  - 예시 02: [/programmers/난이도별/level01.K번째수/yoojinhee03.java](./programmers/난이도별/level01.K번째수/yoojinhee03.java)
   - 예시 03: 추가 예정
   
