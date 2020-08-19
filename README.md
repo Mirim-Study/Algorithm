@@ -21,3 +21,5 @@
   - 예시 02: [/programmers/난이도별/level01.K번째수/yoojinhee03.java](./programmers/난이도별/level01.K번째수/yoojinhee03.java)
   - 예시 03: 추가 예정
   
+## 참고
+[단국대학교 알고리즘 스터디](https://github.com/DKU-STUDY/Algorithm)
