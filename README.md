@@ -5,6 +5,7 @@
 - [양아름](https://github.com/areumsheep)
 - [유진희](https://github.com/yoojinhee03)
 - [윤희나](https://github.com/yunwhite)
+- [김수현](https://github.com/wander0220)
 
 ## PR 규칙
 - PR 이름은 알고리즘 푼 문제 이름으로 작성합니다.
