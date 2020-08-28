@@ -1,10 +1,10 @@
 function solution(x) {
-    var answer = true;
     var sum = 0;
-    x = String(x);
-    for(let i=0; i<x.length; i++){
-        sum += x[i]
+    var arr = (x+'').split('');
+    
+    for(let i=0; i<arr.length; i++){
+        sum += parseInt(arr[i])
     }
     
-    return answer;
+    return x%sum == 0 ? true : false;
 }
