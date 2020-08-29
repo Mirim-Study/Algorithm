@@ -7,6 +7,7 @@
 - [윤희나](https://github.com/yunwhite)
 - [김수현](https://github.com/wander0220)
 - [이기쁨](https://github.com/pppeum62)
+- [김예은](https://github.com/KIMYEN0426)
 
 ## PR 규칙
 - PR 이름은 알고리즘 푼 문제 이름으로 작성합니다.
