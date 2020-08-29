@@ -2,6 +2,7 @@
 2020년 08월 15일에 개설된 미림여자정보과학고등학교 알고리즘 스터디 그룹입니다.
 
 ## 참여자
+### [전체보기](https://github.com/Mirim-Study/Algorithm/graphs/contributors)
 - [양아름](https://github.com/areumsheep)
 - [유진희](https://github.com/yoojinhee03)
 - [윤희나](https://github.com/yunwhite)
