@@ -1,11 +1,12 @@
 # Hello!
 2020년 08월 15일에 개설된 미림여자정보과학고등학교 알고리즘 스터디 그룹입니다.
 
-## 멤버
+## 참여자
 - [양아름](https://github.com/areumsheep)
 - [유진희](https://github.com/yoojinhee03)
 - [윤희나](https://github.com/yunwhite)
 - [김수현](https://github.com/wander0220)
+- [이기쁨](https://github.com/pppeum62)
 
 ## PR 규칙
 - PR 이름은 알고리즘 푼 문제 이름으로 작성합니다.
