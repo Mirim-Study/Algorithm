@@ -9,7 +9,7 @@
 - [김수현](https://github.com/wander0220)
 - [이기쁨](https://github.com/pppeum62)
 - [김예은](https://github.com/KIMYEN0426)
-- [박소영](https://github.com/SSSOy)\
+- [박소영](https://github.com/SSSOy)
 
 ## PR 규칙
 - PR 이름은 알고리즘 푼 문제 이름으로 작성합니다.
