@@ -4,10 +4,8 @@
 ## 참여자
 [코드리뷰](https://github.com/Mirim-Study/Algorithm/pulls)는 언제나 환영입니다! 
 ### [전체보기](https://github.com/Mirim-Study/Algorithm/graphs/contributors)
-<a href="https://github.com/yoojinhee03">
-<img style="width: 100%; height: 100%; object-fit: cover;"
+<img onclick="https://github.com/yoojinhee03"
 src="https://avatars0.githubusercontent.com/u/66635648" alt="drawing" width="80" />
-</a>
 <a href="https://github.com/areumsheep">
 <img src="https://avatars1.githubusercontent.com/u/48716298" alt="drawing" width="80" />
 </a>
