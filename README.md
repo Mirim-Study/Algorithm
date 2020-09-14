@@ -9,8 +9,7 @@
 src="https://avatars0.githubusercontent.com/u/66635648" alt="drawing" width="80" />
 </a>
 <a href="https://github.com/areumsheep">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars1.githubusercontent.com/u/48716298" alt="drawing" width="80" />
+<img src="https://avatars1.githubusercontent.com/u/48716298" alt="drawing" width="80" />
 </a>
 <a href="https://github.com/yunwhite">
 <img style="width: 100%; height: 100%; object-fit: cover;"
