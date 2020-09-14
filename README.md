@@ -6,6 +6,7 @@
 ### [전체보기](https://github.com/Mirim-Study/Algorithm/graphs/contributors)
 <img onclick="https://github.com/yoojinhee03"
 src="https://avatars0.githubusercontent.com/u/66635648" alt="drawing" width="80" />
+<a href="https://github.com/areumsheep">
 <img src="https://avatars1.githubusercontent.com/u/48716298" alt="drawing" width="80" />
 </a>
 <a href="https://github.com/yunwhite">
