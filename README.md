@@ -33,8 +33,10 @@ src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80"
 </a>
 <a href="https://github.com/SSSOy">
 <img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />   
- 
+src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />     
+
+## 코드리뷰 감사합니다
+- [https://github.com/JunilHwang](https://github.com/JunilHwang)
 
 ## PR 규칙
 - PR 이름은 알고리즘 푼 문제 이름으로 작성합니다.
