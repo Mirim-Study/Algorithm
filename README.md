@@ -35,7 +35,7 @@ src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80"
 <img style="width: 100%; height: 100%; object-fit: cover;"
 src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />     
 
-## 코드리뷰 감사합니다
+## 코드리뷰 감사합니다 🙇‍♀️
 - [https://github.com/JunilHwang](https://github.com/JunilHwang)
 
 ## PR 규칙
