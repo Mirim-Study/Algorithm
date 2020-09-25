@@ -4,8 +4,9 @@
 
 ## 참여자
 
-[코드리뷰](https://github.com/Mirim-Study/Algorithm/pulls)는 언제나 환영입니다!     
-+참여할 분들도 언제나 환영합니다! areumsheep@gmail.com << 지원할 분들은 요 쪽으로 메일 주시면 빠르게 확인할 수 있습니다.      
+[코드리뷰](https://github.com/Mirim-Study/Algorithm/pulls)는 언제나 환영입니다! + 참여할 분들도 언제나 환영합니다!    
+areumsheep@gmail.com << 참여하실 분들은 요 쪽으로 메일 주시면 빠르게 확인할 수 있습니다.          
+
 ### [전체보기](https://github.com/Mirim-Study/Algorithm/graphs/contributors)
 <a href="https://github.com/yoojinhee03">
 <img src="https://avatars1.githubusercontent.com/u/66635648" alt="drawing" width="80" />
