@@ -1,0 +1,5 @@
+SELECT name, COUNT(NAME) COUNT
+FROM animal_ins
+GROUP BY name
+HAVING COUNT(NAME) > 1
+ORDER BY name;
