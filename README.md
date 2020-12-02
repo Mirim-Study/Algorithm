@@ -1,6 +1,6 @@
 # Hello!
 2020년 08월 15일에 개설된 미림여자정보과학고등학교 알고리즘 스터디 그룹입니다.    
-처음 하시는 분들을 위한 문서 : [For-Beginer.md 확인하기](https://github.com/Mirim-Study/Algorithm/blob/master/For-Beginer.md)
+처음 하시는 분들을 위한 문서 : [For-Beginner.md](https://github.com/Mirim-Study/Algorithm/blob/master/For-Beginner.md)
 
 ## 참여자
 
