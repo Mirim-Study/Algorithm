@@ -39,7 +39,7 @@ src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80"
 src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />
 </a>
 
-## 모두 감사합니다 🙇‍♀️
+## 도움주신 분들  🙇‍♀️
 - [https://github.com/JunilHwang](https://github.com/JunilHwang)
 - [https://github.com/soilSpoon](https://github.com/soilSpoon)
 
