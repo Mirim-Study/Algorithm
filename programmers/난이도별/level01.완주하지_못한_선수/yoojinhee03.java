@@ -1,18 +1,23 @@
-import java.util.Arrays;
+import java.util.*;
 class Solution {
-    public String solution(String[] participant, String[] completion) {
-      
-        	String answer="";
-       	Arrays.sort(participant);
-	Arrays.sort(completion);
-	int i;
-	for(i=0; i<completion.length; i++) {
-		if(!completion[i].equals(participant[i])) {
-			answer=participant[i];
-			break;
+   public static String solution(String[] participant, String[] completion) {
+		//HashMap<Integer,String> hashMap = new HashMap<Integer,String>();//HashMap持失
+		HashMap<String,Integer> hashMap = new HashMap<String,Integer>();//HashMap持失
+		String answer="";
+		for(String name:participant) {
+			hashMap.put(name, hashMap.getOrDefault(name, 0)+1);
 		}
-	}
-	answer=participant[i];
-	return answer;
+		for(String name:completion) {
+			hashMap.put(name, hashMap.get(name)-1);
+			
+		}
+		for(String name:participant) {
+			System.out.println(hashMap.get(name));
+			if(hashMap.get(name)!=0) {
+				answer=name;
+				break;
+			}
+		}
+        return answer;
     }
 }
