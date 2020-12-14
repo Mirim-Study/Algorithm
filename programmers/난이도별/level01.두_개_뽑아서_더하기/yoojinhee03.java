@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
     public static int[] solution(int[] numbers) {
         int[] answer = {};
-        Arrays.sort(numbers);
+        //Arrays.sort(numbers);
         TreeSet<Integer> treeSet = new TreeSet<>();
         for(int i=0, num_length=numbers.length; i<num_length-1; i++) {
         	for(int j=i+1; j<num_length; j++) {
@@ -10,7 +10,7 @@ class Solution {
         	}
         }
         answer=new int[treeSet.size()];
-        Iterator<Integer> it = treeSet.iterator(); // ¹İº¹ÀÚ »ı¼º
+        Iterator<Integer> it = treeSet.iterator(); // Â¹ÃÂºÂ¹Ã€Ãš Â»Ã½Â¼Âº
         for(int i=0; i<answer.length; i++) {
         	answer[i]=it.next();
         }
