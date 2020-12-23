@@ -3,7 +3,8 @@ class Solution {
         int[] answer = new int[2];
         int row,col;//°¡·Î ¼¼·Î
         System.out.println((brown+4)/2);
-        for(int i=1; i<=((brown+4)/2)/2; i++) {
+        for(int i=1; i<=(brown+4)/4; i++) {
+
         	col=i;
         	row=(brown+4)/2-col;
         	if(col*row==brown+yellow) {
