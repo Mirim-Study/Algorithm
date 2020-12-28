@@ -42,6 +42,7 @@ src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80"
 ## 도움주신 분들  🙇‍♀️
 - [https://github.com/JunilHwang](https://github.com/JunilHwang)
 - [https://github.com/soilSpoon](https://github.com/soilSpoon)
+- [https://github.com/sangwoo-98](https://github.com/sangwoo-98)
 
 ## PR 규칙
 - PR 이름은 알고리즘 푼 문제 이름으로 작성합니다.
