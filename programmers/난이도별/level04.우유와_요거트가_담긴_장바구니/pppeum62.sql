@@ -1,0 +1,5 @@
+SELECT a.CART_ID
+FROM CART_PRODUCTS a, CART_PRODUCTS b
+WHERE a.CART_ID = b.CART_ID
+    AND a.NAME = 'Milk'
+    AND b.NAME = 'Yogurt';
