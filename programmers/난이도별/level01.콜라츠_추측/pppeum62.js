@@ -1,5 +1,4 @@
 function solution(num) {
-    var answer = 0;
     var cnt = 0;
     
     while (num != 1 && cnt < 500) {
