@@ -10,8 +10,8 @@ function solution(lottos, win_nums) {
     var best = success + zero;
     var worst = success;
     
-    answer.push((7 - best) > 5 ? 6 : 7 - best);
-    answer.push((7 - worst) > 5 ? 6 : 7 - worst);
+    answer.push(best < 2 ? 6 : 7 - best);
+    answer.push(worst < 2 ? 6 : 7 - worst);
     
     return answer;
 }
