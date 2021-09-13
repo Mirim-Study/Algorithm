@@ -8,40 +8,33 @@
 areumsheep@gmail.com << 참여하실 분들은 메일 주시면 빠르게 확인할 수 있습니다. (미림인이 아니어도 편하게 메일 주세요!)          
 
 ### [전체보기](https://github.com/Mirim-Study/Algorithm/graphs/contributors)
-<!-- <a href="https://github.com/yoojinhee03">
-<img src="https://avatars1.githubusercontent.com/u/66635648" alt="drawing" width="80" />
-</a> -->
 <a href="https://github.com/areumsheep">
 <img src="https://avatars1.githubusercontent.com/u/48716298" alt="drawing" width="80" />
 </a>
-<!-- <a href="https://github.com/yunwhite">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars2.githubusercontent.com/u/41656678" alt="drawing" width="80" />
-</a> -->
-<!-- <a href="https://github.com/KIMYEN0426">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars1.githubusercontent.com/u/43701352" alt="drawing" width="80" />
-</a> -->
-<!-- <a href="https://github.com/sokkanji">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars3.githubusercontent.com/u/48242362" alt="drawing" width="80" />
-</a>
-<a href="https://github.com/wander0220">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars3.githubusercontent.com/u/48716684" alt="drawing" width="80" />
-</a> -->
 <a href="https://github.com/pppeum62">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80" />
+<img src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80" />
 </a>
 <a href="https://github.com/SSSOy">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />
+<img src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />
 </a>
 <a href="https://github.com/devSOWON0628">
-<img style="width: 100%; height: 100%; object-fit: cover;"
-src="https://avatars.githubusercontent.com/u/48439367" alt="drawing" width="80" />
+<img src="https://avatars.githubusercontent.com/u/48439367" alt="drawing" width="80" />
 </a>
+<!-- <a href="https://github.com/yoojinhee03">
+<img src="https://avatars1.githubusercontent.com/u/66635648" alt="drawing" width="80" />
+</a> -->
+<!-- <a href="https://github.com/yunwhite">
+<img src="https://avatars2.githubusercontent.com/u/41656678" alt="drawing" width="80" />
+</a> -->
+<!-- <a href="https://github.com/KIMYEN0426">
+<img src="https://avatars1.githubusercontent.com/u/43701352" alt="drawing" width="80" />
+</a> -->
+<!-- <a href="https://github.com/sokkanji">
+<img src="https://avatars3.githubusercontent.com/u/48242362" alt="drawing" width="80" />
+</a>
+<a href="https://github.com/wander0220">
+<img src="https://avatars3.githubusercontent.com/u/48716684" alt="drawing" width="80" />
+</a> -->
 
 ## 도움주신 분들  🙇‍♀️
 - [https://github.com/JunilHwang](https://github.com/JunilHwang)
