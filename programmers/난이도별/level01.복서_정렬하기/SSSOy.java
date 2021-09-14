@@ -74,31 +74,39 @@ class Player {
 
 class PlayerComparator implements Comparator<Player> {
 	@Override
-	public int compare(Player first, Player second) {
-		if (first.getWinningRate() > second.getWinningRate()) {
-			return -1;
-		} else if (first.getWinningRate() < second.getWinningRate()) {
-			return 1;
-		} else {
-			if (first.getHeavyPlayerWinNumber() > second.getHeavyPlayerWinNumber()) {
-			    return -1;
-		    } else if (first.getHeavyPlayerWinNumber() < second.getHeavyPlayerWinNumber()) {
-			    return 1;
-		    } else {
+    public int compare(Player first, Player second) {
+        if (first.getWinningRate() > second.getWinningRate()) {
+            return -1;
+        }
+        else if (first.getWinningRate() < second.getWinningRate()) {
+            return 1;
+        }
+        else {
+            if (first.getHeavyPlayerWinNumber() > second.getHeavyPlayerWinNumber()) {
+                return -1;
+            }
+            else if (first.getHeavyPlayerWinNumber() < second.getHeavyPlayerWinNumber()) {
+                return 1;
+            }
+            else {
                 if (first.getWeight() > second.getWeight()) {
-			        return -1;
-		        } else if (first.getWeight() < second.getWeight()) {
-			        return 1;
-		        } else {
+                    return -1;
+                }
+                else if (first.getWeight() < second.getWeight()) {
+                    return 1;
+                }
+                else {
                     if (first.getNum() > second.getNum()) {
-			            return 1;
-		            } else if (first.getNum() < second.getNum()) {
-			            return -1;
-		            } else {
+                        return 1;
+                    }
+                    else if (first.getNum() < second.getNum()) {
+                        return -1;
+                    }
+                    else {
                         return 0;
                     }
                 }
             }
-		}
-	}
+        }
+    }
 }
