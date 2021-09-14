@@ -5,8 +5,8 @@ import java.util.List;
 
 class Solution {
     public int[] solution(int[] weights, String[] head2head) {
-        int[] answer = new int[weights.length];
-        List<Player> playerList = new ArrayList<Player>();
+        final int[] answer = new int[weights.length];
+        final List<Player> playerList = new ArrayList<Player>();
         
         for(int i = 0; i < weights.length; i++) {
             int weight = weights[i];
