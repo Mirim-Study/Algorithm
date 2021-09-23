@@ -1,3 +1,3 @@
 function solution(n) {
-    return "수박".repeat((n/2)*1)+"수".repeat(n%2);
+     return "수박".repeat(Math.round(n/2)).slice(0,n);
 }
