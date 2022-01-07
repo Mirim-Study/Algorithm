@@ -1,11 +1,12 @@
 class Solution {
     public int solution(String s) {
         final String[] numbers = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-        
+        StringBuilder sb = new StringBuilder(s);
+
         for (int i = 0; i < numbers.length; i++) {
-            s = s.replace(numbers[i], i+"");
+            sb = new StringBuilder(sb.toString().replace(numbers[i], String.valueOf(i)));
         }
         
-        return Integer.parseInt(s);
+        return Integer.parseInt(sb.toString());
     }
 }
