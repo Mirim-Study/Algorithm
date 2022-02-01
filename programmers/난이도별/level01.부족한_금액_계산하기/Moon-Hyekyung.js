@@ -4,5 +4,5 @@ function solution(price, money, count) {
         sum += price * index;
     }
     
-    return sum - money <= 0 ? 0 : sum - money;
+    return sum <= money ? 0 : sum - money;
 }
