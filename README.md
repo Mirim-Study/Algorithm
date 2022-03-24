@@ -26,6 +26,9 @@ areumsheep@gmail.com << 참여하실 분들은 메일 부탁드립니다! (미�
 <a href="https://github.com/y2ny">
 <img src="https://avatars.githubusercontent.com/u/43701352?v=4" alt="drawing" width="80" />
 </a>
+<a href="https://github.com/Leemainsw">
+<img src="https://avatars.githubusercontent.com/u/48716775?v=4" alt="drawing" width="80" />
+</a>
 <a href="https://github.com/pppeum62">
 <img src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80" />
 </a>
