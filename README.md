@@ -1,5 +1,5 @@
 # Hello!
-2020년 08월 15일에 개설된 미림여자정보과학고등학교 알고리즘 스터디 그룹입니다.    
+2020년 08월 15일에 개설된 함께하는 코드 리뷰 알고리즘 스터디 그룹입니다.    
 처음 하시는 분들을 위한 문서 : [For-Beginner.md](https://github.com/Mirim-Study/Algorithm/blob/master/For-Beginner.md)
 
 [코드리뷰](https://github.com/Mirim-Study/Algorithm/pulls)는 언제나 환영입니다! + 참여할 분들도 언제나 환영합니다!    
