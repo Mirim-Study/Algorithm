@@ -55,7 +55,7 @@ areumsheep@gmail.com << 참여하실 분들은 메일 부탁드립니다! (미�
   </tr>
 </table>
 
-## 도움주신 분들  🙇‍♀️
+## 도움주신 분들 🙇‍♀️
 - [https://github.com/JunilHwang](https://github.com/JunilHwang)
 - [https://github.com/soilSpoon](https://github.com/soilSpoon)
 - [https://github.com/sangwoo-98](https://github.com/sangwoo-98)
