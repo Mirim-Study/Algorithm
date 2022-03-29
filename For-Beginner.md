@@ -6,7 +6,7 @@ fork를 사용하여 PR을 날려도 괜찮지만 미림 알고리즘 스터디�
 ---
 
 ## 1. 알고리즘 사이트에서 문제를 풉니다.
-추천 : [프로그래머스](https://programmers.co.kr/learn/challenges)
+추천 : [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/problemset), [leetcode](https://leetcode.com/problemset/all/)
 
 ## 2. 깃허브 페이지로 돌아와 아래 이미지에 있는 `Add file > Create new file`을 누릅니다.
 ![image](https://user-images.githubusercontent.com/48716298/94273774-cf2d3f80-ff7f-11ea-9b7c-534634f13d6d.png)
