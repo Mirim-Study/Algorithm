@@ -3,7 +3,13 @@
 
 fork를 사용하여 PR을 날려도 괜찮지만 미림 알고리즘 스터디는 **진입장벽을 낮추기 위해** 깃허브에서 PR을 진행하였습니다.
 
+# 목차
+- [1.기본적인 PR 작성법](#기본적인-pr-작성법)
+- [2.추천문제 PR 작성법](#추천문제-pr-작성법)
+
 ---
+
+# 기본적인 pr 작성법
 
 ## 1. 알고리즘 사이트에서 문제를 풉니다.
 추천 : [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/problemset), [leetcode](https://leetcode.com/problemset/all/)
@@ -47,3 +53,15 @@ Files changed > Review changes > approve
 ## 코드 리뷰 하는 방법
 화살표 있는 부분에 마우스를 올리면 + 버튼이 뜨는데 위 아래로 드래그 하면 그 부분 코드를 집을 수 있습니다.
 ![image](https://user-images.githubusercontent.com/48716298/94275775-5b406680-ff82-11ea-972e-04fd4c7aeb20.png)
+
+---
+
+# 추천문제 pr 작성법
+다른 부분은 기본 PR 작성법과 동일하나 추가되어야 하는 부분들 위주로 작성하였습니다.
+
+## 1. PR에서 `#`을 검색하여 추천문제가 있는 이슈를 지정한다.
+지정할 경우 이슈에서 해당 PR이 참고되어 보인다.
+<img width="681" alt="image" src="https://user-images.githubusercontent.com/48716298/161460928-d37cdd9f-6567-4653-a22c-d7908a8c0769.png">
+
+## 2. Label에 `추천 문제` 태그를 추가한다.
+<img width="238" alt="image" src="https://user-images.githubusercontent.com/48716298/161460976-88c9927f-03f5-4293-b54a-d2ba84f3e91a.png">
