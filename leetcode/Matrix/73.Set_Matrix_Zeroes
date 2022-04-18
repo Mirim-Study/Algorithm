@@ -1,0 +1,30 @@
+/**
+ * @param {number[][]} matrix
+ * @return {void} Do not return anything, modify matrix in-place instead.
+ */
+var setZeroes = function(matrix) {
+    console.log(matrix);
+    const rowLength = matrix.length;
+    const columnLength = matrix[0].length;
+    let rowNum = []; //가로
+    let columnNum = []; //세로
+    
+    for(let i = 0; i < rowLength; i++) {
+        for(let j = 0; j < columnLength; j++){
+            if(matrix[i][j] === 0) {
+                rowNum.push(i);
+                columnNum.push(j);
+            }
+        }
+    }
+    
+    for(let i = 0; i < rowLength; i++) {
+        for(let j = 0; j < columnLength; j++){
+            if(rowNum.includes(i) || columnNum.includes(j)) {
+                matrix[i][j] = 0;
+            }
+        }
+    }
+    
+    return matrix;
+};
