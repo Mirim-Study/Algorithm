@@ -40,3 +40,53 @@ function solution(numbers, target) {
 
 //     return count;
 // }
+
+
+// 3
+// function solution(numbers, target) {
+//     let count = 0;
+//     let loopCount = 0;
+//     const loopLength = Math.pow(2, numbers.length);
+    
+//     let resultStack = [];
+//     let lastNumIndexStack = [];
+    
+//     while(loopCount < loopLength) {
+//         if (resultStack.length !== numbers.length) {
+//             const result = pushNum(numbers[resultStack.length], loopCount, loopLength, resultStack, lastNumIndexStack);
+//             resultStack.push(result);
+//         } else {
+//             loopCount++;
+//             if (resultStack[resultStack.length - 1] === target) count++;
+            
+//             resultStack.pop();
+//             while(isPop(lastNumIndexStack, resultStack)) {
+//                 resultStack.pop();
+//                 lastNumIndexStack.pop();
+//             } 
+//             if (resultStack.length !== 0) lastNumIndexStack.push(resultStack.length - 1);
+//         }
+//     }
+    
+//     return count;
+// }
+
+// function isPop(lastNumIndexStack, resultStack) {
+//     if (lastNumIndexStack.length === 0 || resultStack.length - 1 !== lastNumIndexStack[lastNumIndexStack.length - 1])
+//         return false;
+//     else
+//         return true;
+// }
+
+// function pushNum(num, loopCount, loopLength, resultStack, lastNumIndexStack) {    
+//     if (!(loopCount === 0
+//         || (resultStack.length !== 0 && loopLength / 2 === loopCount)
+//         || (lastNumIndexStack.length !== 0 && resultStack.length - 1 !== lastNumIndexStack[lastNumIndexStack.length - 1]))
+//        ) {
+//         num *= -1;
+//     }
+    
+//     if (resultStack.length !== 0) num = resultStack[resultStack.length - 1] + num;
+    
+//     return num;
+// }
