@@ -30,12 +30,15 @@ function solution(numbers, hand) {
       case 1:
       case 4:
       case 7:
+        // 왼쪽 키
         isLeft = true;
         break;
       case 2:
       case 5:
       case 8:
       case 0:
+        // 중앙 키
+        
         // 누를 키값, 현재 손가락의 위치
         const leftDistance = getDistance(keys[value], leftHandLocation);
         const rightDistance = getDistance(keys[value], rightHandLocation);
@@ -47,6 +50,7 @@ function solution(numbers, hand) {
         }
         break;
       default:
+        // 오른쪽 키
         break;
     }
 
