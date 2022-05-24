@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.lang.Math;
 import java.util.Scanner;
 
 public class Main {
@@ -14,8 +12,9 @@ public class Main {
     
     sc.close();
     
-    ArrayList<Integer> arraylist = new ArrayList<>(Arrays.asList(x, w - x, y, h - y));
+    int width = Math.min(x, w - x);
+    int height = Math.min(y, h - y);
     
-    System.out.println(Collections.min(arraylist));
+    System.out.println(Math.min(width, height));
   }
 }
