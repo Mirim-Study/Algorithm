@@ -9,6 +9,7 @@ class Solution {
         int BIndex = 0;
         for(int i = 0; i < A.length; i++, BIndex++) {
             if(BIndex >= B.length) break;
+            // if(A[i] == B[BIndex]) continue;
             
             if(A[i] < B[BIndex]) {
                 answer++;
