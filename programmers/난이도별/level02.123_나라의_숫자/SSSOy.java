@@ -1,7 +1,6 @@
-class Solution {
-    String[] numbers = {"4", "1", "2"};
-    
+class Solution {  
     public String solution(int n) {
+        String[] numbers = {"4", "1", "2"};
         StringBuffer answer = new StringBuffer();
         
         while(n > 0) {
