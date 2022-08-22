@@ -1,37 +1,32 @@
-function solution(idList, report, MAX_REPORT_COUNT) {
-    const answer = [];
-    const stop = [];
+function solution(id_list, report, k) {
+    // 각 id 당 신고당한 횟수 reportedCount, 각 id 당 신고한 사람 reportedBy
     
-    const reportedList = {};
-    const stoppedList = {};
-    const distinctReportList = new Set(report);
+    const MAX_REPORT_COUNT = k;
+    const reportSet = new Set(report);
     
-    for(const distinctReport of distinctReportList) {
-        const [userID, reportID] = distinctReport.split(' ');
-        const beforeReport = reportedList[userID];
-        if(beforeReport !== undefined)
-            reportedList[userID] = [reportID, ...beforeReport];
-        else
-            reportedList[userID] = [reportID];
-            
-        if(stoppedList[reportID] === undefined)
-            stoppedList[reportID] = 1;
-        else
-            stoppedList[reportID]++;
-    }
-    for (const [key, value] of Object.entries(stoppedList)) {
-      if(value >= MAX_REPORT_COUNT) stop.push(key);
-    }
+    const mailCount = {};     // {"id": Number(count)}
+    const reportedCount = {}; // {"id": Number(count)}
+    const reportedBy = {};    // {"id": []}
     
-    for(const user of idList){
-        let count = 0;
-        for(const id of stop){
-            if(JSON.stringify(reportedList[user] || '').includes(id)){
-                count++;
-            }
+    id_list.forEach((id) => {
+        mailCount[id] = 0;
+        reportedCount[id] = 0;
+        reportedBy[id] = [];
+    });
+    
+    reportSet.forEach((report) => {
+        const [userID, reportedID] = report.split(' ');
+        reportedCount[reportedID] += 1;
+        reportedBy[reportedID].push(userID);
+    });
+    
+    for(const user of id_list){
+        if(reportedCount[user] >= MAX_REPORT_COUNT){
+            reportedBy[user].forEach((reporter) => {
+                mailCount[reporter] += 1;
+            })
         }
-        answer.push(count);
     }
     
-    return answer;
+    return Object.values(mailCount);
 }
