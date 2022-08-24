@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Arrays;
 
 class Solution {
-    public int[] solution(String[] id_list, String[] report, int k) {
+    public int[] solution(String[] id_list, String[] report, int MAX_REPORT_COUNT) {
         int[] answer =  new int[id_list.length];
         Map<String, Integer> reportedUsers = new HashMap<>();
         Map<String,StringBuilder> reportUsers = new HashMap<>();
@@ -17,13 +17,14 @@ class Solution {
         for(int i = 0; i < report.length; i++) {
             String[] userId = report[i].split(" ");
             reportedUsers.merge(userId[1], 1, Integer::sum);
-            reportUsers.merge(userId[0], new StringBuilder("*" + userId[1] + "*"), StringBuilder::append);
+            reportUsers.merge(userId[0], new StringBuilder(getUserIdWithSeparator(userId[1])), StringBuilder::append);
         }
         
         
         for(int i = 0; i < id_list.length; i++) {
             for(String reportedUser : reportedUsers.keySet()) {
-                if(reportedUsers.get(reportedUser) >= k && reportUsers.get(id_list[i]).indexOf("*" + reportedUser + "*") > -1) {
+                if(reportedUsers.get(reportedUser) >= MAX_REPORT_COUNT 
+                   && reportUsers.get(id_list[i]).indexOf(getUserIdWithSeparator(reportedUser)) > -1) {
                     answer[i]++;
                 }
             }
@@ -31,4 +32,8 @@ class Solution {
         
         return answer;
     }
+    
+    private String getUserIdWithSeparator(String userId) {
+        return "*" + userId + "*";
+    } 
 }
