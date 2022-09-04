@@ -5,7 +5,7 @@ function solution(new_id) {
     answer = new_id.toLowerCase();
     
     //2단계 알파벳 소문자, 숫자, 빼기(-), 밑줄(_), 마침표(.)를 제외한 모든 문자 제거
-    const secondReg = /[^a-z1-9-_.]/g;
+    const secondReg = /[^a-z0-9-_.]/g;
     answer = answer.replace(secondReg, '');
     
     //3단계 ... / .. > .
@@ -27,6 +27,5 @@ function solution(new_id) {
     const lastWord = answer[answer.length-1];
     if(answer.length <= 2) answer = answer.padEnd(3, lastWord);
     
-    console.log(answer);
     return answer;
 }
