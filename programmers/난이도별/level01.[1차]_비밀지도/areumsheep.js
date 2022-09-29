@@ -1,14 +1,12 @@
 function solution(n, arr1, arr2) {
-    var answer = [];
-    let str;
-    for(let i=0; i<n; i++){
-        str = Number(arr1[i] | arr2[i]).toString(2);
+    const result = [];
+    
+    for(let i = 0; i < n; i++){
+        const line = (arr1[i] | arr2[i]).toString(2);
+        const replace_format = line.replace(/1/g, '#').replace(/0/g, ' ');
         
-        let strLen = str.length;
-        if (strLen < n)
-            str = '0'.repeat(n - strLen) + str;
-
-        answer.push(str.replace(/1/gi,'#').replace(/0/gi,' '));
+        result.push(replace_format.padStart(n, ' '));
     }
-    return answer;
+    
+    return result;
 }
