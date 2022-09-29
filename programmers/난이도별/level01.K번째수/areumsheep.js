@@ -1,13 +1,15 @@
 function solution(array, commands) {
-    var answer = [];
-    var command = [];
-    var last;
-    for(var i=0; i < commands.length; i++){
-        command = array.slice(commands[i][0]-1,commands[i][1]);
-        command.sort((a , b) => a - b); 
-        // 문자로 인식하고 정렬해서 10, 45, 101의 숫자가 있다면 10, 101, 45 순으로 정렬이 될 것이다.
-        last = commands[i][2]-1;
-        answer[i] = command[last];
+    const INDEX_GAP = 1;
+    const result = [];
+    
+    
+    for(const command of commands){
+        const copy_array = [...array];
+        const splice_array = copy_array.slice(command[0] - INDEX_GAP, command[1]);
+        splice_array.sort((a, b) => a - b);
+        
+        result.push(splice_array[command[2] - INDEX_GAP]);
     }
-    return answer;
+    
+    return result;
 }
