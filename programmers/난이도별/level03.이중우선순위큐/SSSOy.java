@@ -6,7 +6,7 @@ class Solution {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         
         for (String operation : operations) {
-            String[] operationArr = operation.split(" ");
+            String[] splitedOperation = operation.split(" ");
             
             if (operationArr[0].equals("I")) {
                 pq.add(Integer.parseInt(operationArr[1]));
