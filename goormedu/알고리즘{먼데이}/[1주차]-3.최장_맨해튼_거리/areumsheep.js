@@ -5,17 +5,11 @@ const readline = require('readline');
 	let rl = readline.createInterface({ input: process.stdin });
 	
 	for await (const line of rl) {
-		const lineLength = line.length;
-		let point = [];
-		if(line[line.length-1] === ' ') point = line.substr(0, lineLength-1).split(' ')
-		else point = line.split(' ');
-		point = point.map(Number);
-		
+		const point = line.trim().split(' ').map(Number);
 		point.sort((a,b) => a-b);
 		
-		const x = Math.abs(point[0] - point[3]);
-		const y = Math.abs(point[1] - point[2]);
-		console.log(x + y);
+		let [x1, y1, x2, y2] = [...point];
+		console.log(Math.abs(x1 - x2) + Math.abs(y1 - y2));
 		rl.close();
 	}
 	
