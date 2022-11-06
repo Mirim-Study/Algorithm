@@ -12,14 +12,14 @@ rl.on('line', (line) => {
 });
 
 const solution = (data) => {
-	let count = 0;
-	const firstLine = data.shift();
-	const [repeat, standardName] = firstLine.split(' ');
-	
-	data.forEach((name) => {
-		if(new RegExp(standardName).test(name)){
-			count++;
-		}
-	})
-	return count;
+  let count = 0;
+  const firstLine = data.shift();
+  const [repeat, standardName] = firstLine.split(' ');
+
+  for (const name of data) {
+    if (name.includes(standardName)) count++;
+  }
+  return count;
 };
+
+console.log(solution(['4 fred', 'sam', 'fredy', 'fredi', 'ilium']));
