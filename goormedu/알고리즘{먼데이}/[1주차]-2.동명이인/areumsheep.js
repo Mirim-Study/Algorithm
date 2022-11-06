@@ -16,8 +16,10 @@ const solution = (data) => {
 	const firstLine = data.shift();
 	const [repeat, standardName] = firstLine.split(' ');
 	
-	for(const name of data){
-		if(name.includes(standardName)) count++;
-	}
+	data.forEach((name) => {
+		if(new RegExp(standardName).test(name)){
+			count++;
+		}
+	})
 	return count;
 };
