@@ -13,16 +13,24 @@ rl.on('line', (line) => {
 
 const solution = (data) => {
 	data.shift();
-	const numbers = data[0].split(' ').map(Number);
-	
-	const sum = numbers.reduce((acc, cur, index)=> {
-		const currentIndex = index + 1;
-		if(currentIndex === 1) return acc;
-		else if(currentIndex <= 3) return acc + cur;
-		for(let i = 2; i <= Math.floor(Math.sqrt(currentIndex)); i++) {
-			if(currentIndex % i === 0) return acc;
-		}
-		return acc + cur;
-	}, 0);
-	return sum;
+  const numbers = data[0].split(' ').map(Number);
+  
+  // 소수 구하기
+  const result = numbers.reduce((acc, number, index) => {
+    // index가 만약 소수라면
+    if (isPrime(index+1)) {
+      return acc += number;
+    }
+    return acc;
+  }, 0);
+
+	return result;
+};
+
+const isPrime = (n) => {
+  if (n < 2) return false;
+  for (i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) return false;
+  }
+  return true;
 };
