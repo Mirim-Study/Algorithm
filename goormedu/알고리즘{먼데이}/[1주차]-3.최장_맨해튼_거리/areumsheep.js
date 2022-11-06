@@ -8,8 +8,8 @@ const readline = require('readline');
 		const point = line.trim().split(' ').map(Number);
 		point.sort((a,b) => a-b);
 		
-		let [x1, y1, x2, y2] = [...point];
-		console.log(Math.abs(x1 - x2) + Math.abs(y1 - y2));
+		let [x1, y1, y2, x2] = [...point];
+		console.log(x2 - x1 + y2 - y1);
 		rl.close();
 	}
 	
