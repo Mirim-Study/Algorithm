@@ -9,31 +9,22 @@ areumsheep@gmail.com << 참여하실 분들은 메일 부탁드립니다! (미�
 오랫동안 참여하지 않은 분들은 **강퇴**되며 이후 다시 신청 부탁드립니다!   
    
 <a href="https://github.com/areumsheep">
-<img src="https://avatars1.githubusercontent.com/u/48716298" alt="drawing" width="80" />
-</a>
-<a href="https://github.com/hee-naa">
-<img src="https://avatars.githubusercontent.com/u/75595364?v=4" alt="drawing" width="80" />
-</a>
-<a href="https://github.com/jeyin720">
-<img src="https://avatars.githubusercontent.com/u/48716360?v=4" alt="drawing" width="80" />
+<img src="https://avatars1.githubusercontent.com/u/48716298" alt="areumsheep" width="80" />
 </a>
 <a href="https://github.com/JiaLee0707">
-<img src="https://avatars.githubusercontent.com/u/44323898?v=4" alt="drawing" width="80" />
-</a>
-<a href="https://github.com/Moon-HyeKyung">
-<img src="https://avatars.githubusercontent.com/u/75727995" alt="drawing" width="80" />
-</a>
-<a href="https://github.com/y2ny">
-<img src="https://avatars.githubusercontent.com/u/43701352?v=4" alt="drawing" width="80" />
+<img src="https://avatars.githubusercontent.com/u/44323898?v=4" alt="JiaLee0707" width="80" />
 </a>
 <a href="https://github.com/Leemainsw">
-<img src="https://avatars.githubusercontent.com/u/48716775?v=4" alt="drawing" width="80" />
+<img src="https://avatars.githubusercontent.com/u/48716775?v=4" alt="Leemainsw" width="80" />
+</a>
+<a href="https://github.com/sokkanji">
+<img src="https://avatars.githubusercontent.com/u/48242362?v=4" alt="sokkanji" width="80" />
 </a>
 <a href="https://github.com/pppeum62">
-<img src="https://avatars1.githubusercontent.com/u/48782921" alt="drawing" width="80" />
+<img src="https://avatars1.githubusercontent.com/u/48782921" alt="pppeum62" width="80" />
 </a>
 <a href="https://github.com/SSSOy">
-<img src="https://avatars1.githubusercontent.com/u/48789583" alt="drawing" width="80" />
+<img src="https://avatars1.githubusercontent.com/u/48789583" alt="SSSOy" width="80" />
 </a>
 
 
