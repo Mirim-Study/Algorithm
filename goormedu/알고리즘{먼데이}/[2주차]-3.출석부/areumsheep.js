@@ -14,10 +14,8 @@ const solution = (data) => {
 		const [secondName, secondHeight] = b.split(' ');
 		
 		if(firstName < secondName) return -1;
-		if(firstName > secondName) return 1;
-		if(firstHeight < secondHeight) return -1;
-		if(firstHeight > secondHeight) return 1;
-		return 0;
+		else if(firstName > secondName) return 1;
+		else return Number(firstHeight) - Number(secondHeight);
 	});
 	
 	return data[index-1];
