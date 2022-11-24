@@ -10,39 +10,39 @@ class Solution {
         }
         
         for(int i = 0; i < queries.length; i++) {
-            int[] query = queries[i];
-            int temp = arr[query[0] - 1][query[1] - 1];
+            int x1 = queries[i][0] - 1, y1 = queries[i][1] - 1, x2 = queries[i][2] - 1, y2 = queries[i][3] - 1;
+            int temp = arr[x1][y1];
             answer[i] = temp;
             
-            for(int j = query[0] - 1; j < query[2] - 1; j++) {
-                int moveValue = arr[j + 1][query[1] - 1];
-                arr[j][query[1] - 1] = moveValue;
+            for(int j = x1; j < x2; j++) {
+                int moveValue = arr[j + 1][y1];
+                arr[j][y1] = moveValue;
                 if(answer[i] > moveValue) {
                     answer[i] = moveValue;
                 }
             }
-            for(int j = query[1] - 1; j < query[3] - 1; j++) {
-                int moveValue = arr[query[2] - 1][j + 1];
-                arr[query[2] - 1][j] = moveValue;
+            for(int j = y1; j < y2; j++) {
+                int moveValue = arr[x2][j + 1];
+                arr[x2][j] = moveValue;
                 if(answer[i] > moveValue) {
                     answer[i] = moveValue;
                 }
             }
-            for(int j = query[2] - 1; j >= query[0]; j--) {
-                int moveValue = arr[j - 1][query[3] - 1];
-                arr[j][query[3] - 1] = moveValue;
+            for(int j = x2; j > x1; j--) {
+                int moveValue = arr[j - 1][y2];
+                arr[j][y2] = moveValue;
                 if(answer[i] > moveValue) {
                     answer[i] = moveValue;
                 }
             }
-            for(int j = query[3] - 1; j > query[1]; j--) {
-                int moveValue = arr[query[0] - 1][j - 1];
-                arr[query[0] - 1][j] = moveValue;
+            for(int j = y2; j > y1 + 1; j--) {
+                int moveValue = arr[x1][j - 1];
+                arr[x1][j] = moveValue;
                 if(answer[i] > moveValue) {
                     answer[i] = moveValue;
                 }
             }
-            arr[query[0] - 1][query[1]] = temp;
+            arr[x1][y1 + 1] = temp;
         }
         
         return answer;
