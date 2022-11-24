@@ -8,8 +8,8 @@ class Solution {
         }
         
         while (!(b - a == 1 && b % 2 == 0)) {
-            a = (int) Math.ceil((float) a / 2);
-            b = (int) Math.ceil((float) b / 2);
+            a = (int) Math.ceil((double) a / 2);
+            b = (int) Math.ceil((double) b / 2);
             answer++;
         }
         
